@@ -4,7 +4,7 @@ body
 	color: #222
 	font-family: 'Rajdhani', sans-serif
 
-section
+header
 	display: flex
 	min-height: 100%
 	flex-direction: column
@@ -12,8 +12,14 @@ section
 	align-items: center
 	overflow: hidden
 
-img
-	border-radius: 50%
+	img
+		border-radius: 50%
+
+section
+	display: flex
+	justify-content: center
+	flex-direction: column
+	padding: 20px 40px
 
 a, a:visited, a:hover, a:active
 	color: inherit
@@ -38,6 +44,10 @@ div
 .icon
 	height: 32px
 	width: 32px
+	fill-opacity: 0.8
+
+	&:hover
+		fill-opacity: 0.9
 
 body > svg
 	display: none
