@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "node-sass --output-style compressed styles.sass | postcss -u autoprefixer > styles.css"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joextodd/joextodd.com.git"
@@ -16,10 +14,5 @@
     "url": "https://github.com/joextodd/joextodd.com/issues"
   },
   "homepage": "https://github.com/joextodd/joextodd.com#readme",
-  "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "node-sass": "^4.5.2",
-    "postcss": "^5.2.16",
-    "postcss-cli": "^3.0.0"
-  }
+  "devDependencies": {}
 }
